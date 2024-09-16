@@ -1,3 +1,4 @@
+"""""
 import os
 from models.enums.sexo import Sexo
 from models.pessoa import Pessoa
@@ -7,13 +8,13 @@ from models.enums.unidadefederativa import UnidadeFederativa
 os.system("cls || clear")
 
 pessoa1 = Pessoa(556677,
-                 "fodase",
+                 "nome",
                  "55 / 55 / 2055",
                  53574584,
-                 "emailFodase",
+                 "email",
                  Sexo.MASCULINO,
                  Endereco("sla qq isso",
-                          "numeroFodase",
+                          "numero",
                           "rua",
                           "63646436",
                           "ja",
@@ -22,3 +23,10 @@ pessoa1 = Pessoa(556677,
                  )
 
 print(pessoa1)
+"""""
+
+import os
+os.system("cls || clear")
+
+if __name__ == "__main__":
+    os.system("pytest")
